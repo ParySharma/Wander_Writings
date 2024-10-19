@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  -webkit-scrollbar: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px !important;
+  display: none !important;
+}
+
+body {
+  padding-right: 0% !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  -webkit-scrollbar: none;
+}
+
+
+@media(max-width:1550px) {
+  .container {
+    max-width: 1600px !important;
+    background-color: #F5F6FA !important;
+  }
+}
+
+.container {
+  max-width: 1600px !important;
+  background-color: #f5f6fa !important;
+  width: 100%;
+}
+
+@media(max-width:680px) {
+  .navbar {
+    margin-top: 0px !important;
+  }
+
+}
+
+#outlined-basic {
+  padding: 10.5px 14px !important;
+}
+
+.ioYJvy,
+.hCrXTE {
+  margin-bottom: 0px !important;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+@media (pointer: coarse) {
+  .plan__content .MuiSlider-root {
+    padding: 0 !important;
+  }
+}
+
+
+.card-contant {
+  position: relative;
+}
+
+.card-contant:hover {
+  z-index: 2;
+  transition: all 200ms ease-in;
+  transform: scale(1.03);
+  outline: 1px solid var(--primary-button-back-opacity);
+  color: var(--primary-button-background-color);
+}
+
+.menuselect.Mui-selected,
+.menuselect.Mui-selected:hover,
+.MuiSelect-root,
+.MuiMenuItem-root {
+  background-color: var(--card-background-color) !important;
+  color: var(--body-text-color) !important;
+}
+
+
+.MuiMenuItem-root:hover {
+  background-color: var(--light-text-color) !important;
+}
+
+.bg-ico {
+  display: flex;
+  line-height: 90px;
+  margin: 0 5px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  opacity: 0.99;
+  background-color: #ffffff;
+}
+
+.tabicon svg {
+  margin-bottom: 0;
+}
+
+.tabicon .css-aym9vq-MuiButtonBase-root-MuiTab-root {
+  min-height: auto;
+}
+
+.tabs-container-hydrate .MuiButtonBase-root.MuiTab-root {
+  padding: 0 !important;
+  font-size: 14px !important;
+}
+
+.tabs-container-hydrate {
+  border-right: 2px solid var(--primary-button-background-color);
+}
+
+.water::after {
+  top: var(--after-top-offset);
+  left: -52%;
+  height: 210%;
+  background-color: #f5f8f980;
+  animation-delay: 0.7s;
+}
+
+.scan_filter {
+  filter: var(--filter--invert);
+}
+
+.background-progress circle {
+  stroke: #f5f6fa !important;
+}
+
+.tabicon.Mui-selected {
+  border-radius: 0px 100px 100px 0px;
+  background-color: var(--primary-button-back-opacity);
+  color: var(--primary-button-background-color) !important;
+}
+
+.chipstyle {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.walking_chart .recharts-cartesian-grid-vertical line {
+  display: none;
+}
+
+.walking_chart .recharts-cartesian-axis-line {
+  stroke: transparent;
+}
+
+.walking_chart .recharts-text.recharts-label {
+  display: none;
+}
+
+.step-icon .MuiStepLabel-labelContainer {
+  order: 1;
+}
+
+.step-icon .MuiStepLabel-iconContainer {
+  order: 2;
+}
+
+.MuiStepLabel-label.Mui-active,
+.MuiStepLabel-label.Mui-completed {
+  color: var(--progress-bar-color) !important;
+}
+
+.MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  margin-top: 0 !important;
+  margin-bottom: 7px;
+}
+
+.menuselect.Mui-selected,
+.menuselect.Mui-selected:hover,
+.MuiSelect-root,
+.MuiMenuItem-root,
+.MuiInputBase-root {
+  background-color: var(--card-background-color);
+  color: var(--body-text-color) !important;
+}
+
+#language-label {
+  margin-left: 2rem !important;
+}
+
+.MuiOutlinedInput-root,
+.MuiInputLabel-root {
+  background-color: var(--transparent);
+  color: var(--body-text-color) !important;
+}
+
+.badge>div>span>.MuiAvatar-colorDefault {
+  background-color: var(--primary-button-back-opacity) !important;
+  color: var(--primary-button-background-color) !important;
+  font-size: 30px !important;
+}
+
+.Mui-disabled,
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
+  -webkit-text-fill-color: var(--field-disabled-text-color) !important;
+}
+
+@media(max-width:768px) {
+  .tabs-container-hydrate .MuiButtonBase-root.MuiTab-root {
+    font-size: 12px !important;
+  }
+}
+
+.profile_name p {
+  color: var(--body-text-color) !important;
+}
+
+/* slider */
+.slider-container {
+  position: relative;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.inactive {
+  display: none;
+}
+
+.slides {
+  height: 535px;
+  width: 100%;
+  position: relative;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.8;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* object-fit: cover; */
+  border-radius: 18px;
+}
+
+.all-dots {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  top: 85%;
+  justify-content: center;
+  z-index: 200;
+}
+
+.dotImg {
+  cursor: pointer;
+  height: 0.8rem;
+  width: 0.8rem;
+  margin: 0px 3px;
+  background-color: transparent;
+  border: 2px solid var(--card-background-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active-dot {
+  background-color: var(--card-background-color) !important;
+}
+
+.dashed::after {
+  content: '';
+  border: 1px dashed #D9D9D9;
+  height: 100%;
+  display: inline-block;
+  margin-left: 45%;
+  z-index: -1;
+}
+
+@media(max-width:900px) {
+  .main_widgets {
+    flex-wrap: wrap;
+  }
+
+  .slide-image {
+    object-fit: inherit;
+  }
+
+  .slides {
+    height: 335px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+.dialog-popup>div.MuiDialog-container>div {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.MuiRating-icon {
+  color: inherit !important;
+}
+
+.i-frame iframe {
+  border-radius: 12px !important;
+}
+
+.validated-tab {
+  background-color: #FFC080;
+  /* or any other color you prefer */
+}
+
+/* Quizzes Summary animation */
+.pulse {
+  height: 50%;
+  width: 50%;
+  background: #fff;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30%;
+}
+
+.pulse:before,
+.pulse:after {
+  content: "";
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.pulse:before {
+  animation: pulse 2s linear infinite;
+}
+
+.pulse:after {
+  animation: pulse 2s 1s linear infinite;
+}
+
+@keyframes pulse {
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.word-break {
+  word-break: break-all;
+}
+
+.user-select {
+  user-select: none;
+}
+
+.pointer-events {
+  pointer-events: none;
+}

@@ -1,0 +1,119 @@
+/* globals.css */
+:root {
+  --transparent: transparent;
+  --white-color: #ffffff;
+  --body-background-color: #f5f6fa;
+  --body-text-color: #25282b;
+  --card-background-color: #ffffff;
+  --card-text-color: #25282b;
+  --input-border-color: #cacdd4;
+  --input-background-color: #ffffff;
+  --primary-button-background-color: #066cff;
+  --primary-button-back-opacity: #066cff33;
+  --primary-button-text-color: #ffffff;
+  --disable-button-color: #d9214e;
+  --heading-color: #066cff33;
+  --link-color: #27518b;
+  --secondary-button-background-color: var(--mockbackgroundsecondary);
+  --secondary-button-text-color: var(--mocktextsecondary);
+  --error-text-color: #d9214e;
+  --success-text-color: #50cd89;
+  --black-primary-text-color: #ffffff;
+  --border-color: rgba(0, 0, 0, 0.12);
+  --border-color-light: #959ca9;
+  --placeholder-text-color: #6b7280;
+  --box-input-label-color: #828486;
+  --box-input-border-color: #d9d9d9;
+  --login-label-color: #757575;
+  --login-button-color: linear-gradient(271deg, #262288 0%, #066cff 100%);
+  --back-button-color: #b6b9c8;
+  --back-label-color: #ffffff;
+  --light-text-color: #b5b5c3;
+  --module-card-back-color: #fafafa;
+  --module-card-light-text-color: #757575;
+  --black-color: #181c32;
+  --field-disabled-text-color: #b5b5c3;
+  --primary-alert-background-color: unset;
+  --dropdown-bg-color: #ffffff;
+  --svg--back--color: #f6f6f6;
+  --filter--invert: invert(0);
+  --light-icon-color: #6b7280;
+  --chip-text-color: #000000;
+  --chip-back-color: #f9f9f9;
+  --table-text-color: #111827;
+  --skeletan-color: rgba(0, 0, 0, 0.11);
+  --select-back-color: #d5d6d71f;
+  --icon-color: #066cff;
+  --icon-opacity: #066cff33;
+  --progress-bar-color: #066cff;
+  --tab-back-color: #f5f5f5;
+  --select-background-icon-color: #e8e8eb;
+  --linear-gradient: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--primary-button-background-color), #fff 10%),
+    color-mix(in srgb, var(--primary-button-background-color), #000 50%)
+  );
+}
+
+[data-theme='dark'] {
+  --transparent: transparent;
+  --body-background-color: #1f2527;
+  --body-text-color: #ffffff;
+  --card-background-color: #2e3236;
+  --card-text-color: #fff;
+  --dark-card-background-color: #1f2527;
+  --input-border-color: #ffffff;
+  --input-background-color: #25282b;
+  --primary-button-background-color: #066cff;
+  --primary-button-text-color: #ffffff;
+  --primary-button-back-opacity: #cde2ff;
+  --disable-button-color: #d9214e;
+  --link-color: #066cff;
+  --secondary-button-background-color: var(--mockbackgroundsecondary);
+  --secondary-button-text-color: var(--mocktextsecondary);
+  --secondary-button-background-color: #e4e4e4;
+  --secondary-button-text-color: #3d3b56;
+  --error-text-color: #d9214e;
+  --success-text-color: #50cd89;
+  --placeholder-text-color: #ffffff;
+  --border-color: grey;
+  --border-color-light: #f5f6fa;
+  --light-text-color: #abadaf;
+  --module-card-back-color: #25282b;
+  --module-card-light-text-color: #ffffff;
+  --field-disabled-text-color: #abadaf;
+  --svg--back--color: #2e3236;
+  --filter--invert: invert(1);
+  --dropdown-bg-color: #1f2527;
+  --light-icon-color: #ffffff;
+  --chip-text-color: #000000;
+  --chip-back-color: #f9f9f9;
+  --table-text-color: #fff;
+  --skeletan-color: rgba(255, 255, 255, 0.13);
+  --icon-color: #066cff;
+  --icon-opacity: #cde2ff;
+  --tab-back-color: #0e1012;
+  --progress-bar-color: #066cff;
+  --select-back-color: #2e3236;
+  --select-background-icon-color: #2e3236;
+  --progress_hra_low_color: #6ca540;
+  --progress_hra_mod_color: #ffb848;
+  --progress_hra_high_color: #e34d43;
+  --progress_hra_very_high_color: #e02222;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
