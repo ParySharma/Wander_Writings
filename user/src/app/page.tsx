@@ -3,7 +3,7 @@
 import { useLayoutEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
-const Page = () => {
+const LandingPage = () => {
   const router = useRouter();
 
   useLayoutEffect(() => {
@@ -13,4 +13,4 @@ const Page = () => {
   return;
 };
 
-export default Page;
+export default LandingPage;
